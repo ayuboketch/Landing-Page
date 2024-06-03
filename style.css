@@ -1,0 +1,11 @@
+body {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.header {
+    position: sticky;
+    top: 0;
+    min-width: 20px;
+    height: 20px;
+    margin: 1px solid red;
+}
