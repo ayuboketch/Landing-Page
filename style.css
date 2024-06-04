@@ -164,13 +164,16 @@ footer {
     /* border: 1px solid red; */
     height: 50%;
     width: 40%;
+    max-width: 100%; 
+    flex-wrap: wrap; 
+    overflow: auto;
 }
 
 .quote1 p {
     font-size: x-large;
     font-style: italic;
     max-width: 100%;
-    
+    display: flex;
 }
 
 .quote2 {
@@ -201,7 +204,7 @@ footer {
     justify-content: center;
     align-items: center;
     box-shadow: 0 2px 5px #3d3d3e;;
-    gap: 100px;
+    gap: 60px;
     background-color: #3882f6;
     border-radius: 40px;
     color: #fff;
@@ -214,12 +217,14 @@ footer {
     margin-top: -50px;
     flex-direction: column;
     flex-wrap: wrap;
-    max-width: 100%
+    max-width: 100%;
+    flex-direction: row;
 }
 
 .callsignup {
     height: 30px;
     width: 150px;
+    margin-right: 20px;
 }
 
 .signUp1 {
